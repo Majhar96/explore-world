@@ -1,0 +1,23 @@
+
+/* about message */
+.aboutMessage{
+    text-align: justify;
+    padding: 40px;
+    background-color: #ebf0f8;
+}
+
+.aboutMessage h2{
+    color: rgb(59, 59, 65);
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.aboutMessage ul li{
+    font-weight: bold;
+    color: rgb(84, 84, 88);
+    text-align: justify
+}
+
+
+
+

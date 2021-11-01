@@ -1,0 +1,28 @@
+.covid-container{
+    background-color:#ebf0f8 ;
+}
+
+.covid-container h1{
+    text-align: center;
+    border-bottom: 2px solid lightslategrey;
+}
+
+.vaccine-container{
+    display: flex;
+}
+
+.vaccine-container div{
+    width: 40%;
+    margin: 30px;
+    padding: 20px;
+    font-weight: bold;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgb(102 114 124);
+
+}
+
+.list{
+    text-decoration: none;
+    color: grey;
+}

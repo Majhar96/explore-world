@@ -1,0 +1,19 @@
+.signUp-container{
+    display: flex;
+    justify-content: center;
+
+}
+.signUp-child-container{
+    width: 40%;
+    margin: 30px;
+    padding: 20px;
+    font-weight: bold;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgb(102 114 124);
+
+}
+
+.signUp-child-container h3{
+    font-family: cursive;
+}

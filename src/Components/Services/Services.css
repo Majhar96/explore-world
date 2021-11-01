@@ -1,0 +1,12 @@
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.service-heading{
+    text-align: center;
+    color: lightslategray;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid lightslategray;
+}
+

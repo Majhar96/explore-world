@@ -1,0 +1,30 @@
+/* main div */
+.main-why{
+    background-color: #ebf0f8;
+    
+}
+
+.main-why h2{
+    text-align: center;
+    border-bottom: 2px solid rgb(193, 197, 197);
+}
+
+/* button */
+.button{
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+
+/* child container */
+.why-container{
+    display: flex;
+    text-align: center;
+    
+}
+
+/* component container */
+.purpose-container{
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+}

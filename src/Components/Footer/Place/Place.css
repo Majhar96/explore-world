@@ -1,0 +1,12 @@
+.place-container{
+    display: flex;
+    text-align: justify;
+    background-color:rgb(54 56 57) ;
+    color: aliceblue;
+}
+
+.contact-container{
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+}
