@@ -1,39 +1,26 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams } from 'react-router';
 import './Details.css'
 
 const Details = () => {
 
-    const { _id } = useParams();
+    const { serviceId } = useParams();
 
-    const [details, setDetails] = useState([]);
-    const [specificDetails, setSpecificDetails] = useState({});
+    const [service, setService] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch(`https://aqueous-waters-98285.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
-            .then(data => setDetails(data));
-    }, [])
-
-    useEffect(() => {
-        if (details.length > 0) {
-            // eslint-disable-next-line eqeqeq
-            const requiredData = details.find(detail => detail._id == _id)
-
-            setSpecificDetails(requiredData);
-        }
-
-
-    }, [details, _id])
+            .then(data => setService(data));
+    }, [serviceId])
 
 
     return (
         <div className="d-flex justify-content-center">
             <div className="details ">
-
-                <img className="details-image" src={specificDetails?.img} alt="img" />
-                <h4>{specificDetails?.name}</h4>
-                <p>{specificDetails?.description}</p>
+                <img className="details-image" src={service?.img} alt="booking" />
+                <h3>{service?.name}</h3>
+                <p>{service?.description}</p>
             </div>
         </div>
     );

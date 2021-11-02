@@ -12,6 +12,7 @@ import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Details from './Components/Details/Details';
 import Login from './Components/Login/Login/Login';
 import Addservice from './Components/Addservice/Addservice';
+import ManageServices from './Components/ManageServices/ManageServices';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
             </Route>
             <Route path="/addservice">
               <Addservice></Addservice>
+            </Route>
+            <Route path="/manageServices">
+              <ManageServices></ManageServices>
             </Route>
             <Route path="/details/:id">
               <Details></Details>
