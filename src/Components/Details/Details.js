@@ -4,13 +4,13 @@ import './Details.css'
 
 const Details = () => {
 
-    const { id } = useParams();
+    const { _id } = useParams();
 
     const [details, setDetails] = useState([]);
     const [specificDetails, setSpecificDetails] = useState({});
 
     useEffect(() => {
-        fetch('/data.json')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setDetails(data));
     }, [])
@@ -18,21 +18,21 @@ const Details = () => {
     useEffect(() => {
         if (details.length > 0) {
             // eslint-disable-next-line eqeqeq
-            const requiredData = details.find(detail => detail.id == id)
+            const requiredData = details.find(detail => detail._id == _id)
 
             setSpecificDetails(requiredData);
         }
 
 
-    }, [details, id])
+    }, [details, _id])
 
 
     return (
         <div className="d-flex justify-content-center">
             <div className="details ">
-                <h2>This is details: {id}</h2>
+
                 <img className="details-image" src={specificDetails?.img} alt="img" />
-                <h4>{specificDetails?.department}</h4>
+                <h4>{specificDetails?.name}</h4>
                 <p>{specificDetails?.description}</p>
             </div>
         </div>

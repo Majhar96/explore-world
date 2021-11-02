@@ -5,12 +5,12 @@ import './Safety.css'
 const Safety = () => {
     return (
         <div className="covid-container  mt-3 p-4">
-            <h1>Covid-19 Vaccine Information</h1>
+            <h1>Safety Issue Of the Clients</h1>
             <div className="vaccine-container">
                 <div>
-                    <h3>Vaccination options for explore world clients</h3>
+                    <h3>Our place to know about our agency</h3>
                     <br />
-                    <h6>COVID-19 vaccination options and guidelines vary widely by location and may change over time. See the latest information specific to explore world Place:</h6>
+                    <h6>COVID-19 situation make the world a borring place.Though we have to follow the safety rules of government.Here some section:</h6>
                     <br />
                     <ul>
                         <li ><Link className="list" to="">Dhaka</Link></li>
@@ -22,7 +22,7 @@ const Safety = () => {
                 <div>
                     <h3>Not a explore world client?</h3>
                     <br />
-                    <h6>If you're not a explore world client, check your public health department's website for the most complete information.</h6>
+                    <h6>If you're not a explore world client, check our website for the most complete information for what to do for covid protocol.</h6>
                     <br />
                     <input type="check" name="check" />
                 </div>

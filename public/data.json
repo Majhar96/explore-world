@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "department": "Cardiology",
-        "description": "The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology.",
-        "img": "https://www.nm.org//-/media/northwestern/healthbeat/images/health%20library/nm-ten-signs-cardiologist_preview.jpg"
+        "department": "Khoiyachora",
+        "description": "Khoiyachora is a most beautyful waterfall located in mirshorai chittagong Bangladesh.If you want to climb nothing help there without nature.",
+        "img": "https://i.pinimg.com/736x/f7/8f/48/f78f482c6f3b1f53a5627e88e88924a0--largest-waterfall-beautiful-waterfalls.jpg"
     },
     {
         "id": 2,
-        "department": "Gynocology",
-        "description": "A gynecologist diagnose and treat issues related to the female reproductive tract. This includes the uterus, fallopian tubes, and ovaries and breasts. Anyone with female organs may see a gynecologist.",
-        "img": "https://www.chaudharyhospital.in/wp-content/uploads/2021/04/Gynecology-in-Udaipur.jpg"
+        "department": "Sent Martin",
+        "description": "Sent martin is one of the best tourist spot in Bangladesh.If anyone want to loss in nature he should go to these marvelous island.",
+        "img": "https://www.theindependentbd.com/assets/news_images/Ecotourism-and-Green1.jpg"
     },
     {
         "id": 3,
-        "department": "Nephrology",
-        "description": "Concerns the diagnosis and treatment of kidney diseases, including electrolyte disturbances and hypertension,renal replacement, including dialysis and renal transplant patients.",
-        "img": "https://www.memorialhealthcare.org/wp-content/uploads/2018/03/nephrology.jpg"
+        "department": "Cox's Bazar",
+        "description": "Largest sea beach in the world. Every year million of visitor go there to celebrate their vacation.Go there and relaxing by watching sunset and sunrise",
+        "img": "https://www.daily-bangladesh.com/media/imgAll/2021March/en/Coxs-bazar-beach-2104020359.jpg"
     },
     {
         "id": 4,
-        "department": "Medicine and Gastrology",
-        "description": "Focus on the digestive tract and the gallbladder, liver, bile ducts, and pancreas. Also do routine procedures such as colonoscopies, which look at the inside of your colon.",
-        "img": "https://www.mukathospital.com/wp-content/uploads/2021/03/GastroEndo-Image.jpg"
+        "department": "Ratargul",
+        "description": "Ratargul is one of the best sceneric beauty in Bangladesh.It is situated in the sylhet division.Boat journey in beautyful water with green tree here and there.",
+        "img": "http://touristplace.bangladeshinformation.info/wp-content/uploads/sites/7/2016/12/Ratargul-Swamp-Forest.jpg"
     },
     {
         "id": 5,
-        "department": "Othopedics",
-        "description": "Orthopedics is a branch of medicine that focuses on the care of the musculoskeletal system. This system is made up of muscles and bones, as well as joints, ligaments, and tendons.",
-        "img": "https://www.znzgrup.com/image/kurumsal/ortopedi-ve-travmatoloji-bolumu-58.jpg"
+        "department": "Safari Park Gazipur",
+        "description": "Gazipur Safari park is one of the best side to watch the wild life lively in Bangladesh.Specially watching Royal bengal Tiger is the best thing.",
+        "img": "https://i.ytimg.com/vi/5p64rHDh0sU/hqdefault.jpg"
     },
     {
         "id": 6,
-        "department": "Neurology",
-        "description": "The Department of Neurology at grace-clinic offers a depth and breadth of surgical experience that few institutions can match. More than 20 full-time clinical and research faculty.",
-        "img": "https://www.hsmc.ae/wp-content/uploads/2021/02/neurology-clinic.jpg"
+        "department": "Keokradong",
+        "description": "If you want to touch cloud in your hand and want some excitement you should visit keokradong.It is the 3rd highest hill in Bangladesh.",
+        "img": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/keokradong-2-960x530.jpg"
     }
 ]

@@ -5,12 +5,12 @@ import './Service.css'
 
 const Service = (props) => {
 
-    const { description, department, img, id } = props.service;
+    const { description, department, img, _id } = props.service;
 
     const history = useHistory();
 
-    const handleDetails = (id) => {
-        const url = `/details/${id}`
+    const handleDetails = (_id) => {
+        const url = `/details/${_id}`
         history.push(url);
     }
 
@@ -20,7 +20,7 @@ const Service = (props) => {
             <img className="card-img" src={img} alt="" />
             <h3>{department}</h3>
             <p>{description}</p>
-            <button onClick={() => { handleDetails(id) }} className="btn btn-primary">See details</button>
+            <button onClick={() => { handleDetails(_id) }} className="btn btn-primary">Book Now</button>
         </div>
 
 

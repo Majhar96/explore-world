@@ -8,7 +8,7 @@ const Services = () => {
 
     // taking six services
 
-    const information = services.slice(1, 3);
+    const information = services.slice(0, 6);
 
 
     return (
